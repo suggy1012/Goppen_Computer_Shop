@@ -3,7 +3,7 @@
 { 
     width: 100%;
     height: 80px;
-    background-image: url(images/gradient_head.jpg)
+    background-image: url(images/Back/gradient_head.jpg)
 }
 body
 {
@@ -17,13 +17,13 @@ body
     bottom: 0;
     width: 100%;
     height: 80px;
-    background-image: url(images/gradient_foot.jpg)
+    background-image: url(images/Back/gradient_foot.jpg)
 }
 .footer_for
 { 
     width: 100%;
     height: 80px;
-    background-image: url(images/gradient_foot.jpg)
+    background-image: url(images/Back/gradient_foot.jpg )
 }
 .text 
 { 
