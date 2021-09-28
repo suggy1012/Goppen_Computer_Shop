@@ -1,40 +1,42 @@
 <html>
-    <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-        <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
-        <title>Send your review!</title>
-        <style>
-            .text 
-            {
-                text-align:  center;
-            }
-        </style>
-        <body link="Black" vlink="Black" alink="Black" bgcolor="#FFFFFF"></body>
-    </head>
-    <body>
-        <div class="container">
-            <div class="text">
-                <h1>Our reviews</h1>
-                <br>
-                <p>
-                    <a class="btn btn-outline-secondary" href="main_list.html" role="button">Main page</a>
-                    <a class="btn btn-outline-secondary" href="Catalog.html" role="button">Products catalog</a>
-                </p>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Send your review!</title>
+</head>
+<header class = "header">
+    <br>
+    <p>
+        <a class="btn btn-outline-secondary" href="About.html" role="button">About shop</a> 
+        <a class="btn btn-outline-secondary" href="Catalog.html" role="button">Products catalog</a>
+        <a class="btn btn-outline-secondary" href="main_list.html" role="button">Main page</a>
+    </p>
+</header>
+<body class="text">
+    <div class="container">
+        <h1>Our reviews</h1>
+        </p>
+        <br>
+        <form>
+            <div class="mb-3">
+                <label  class="form-label">Email address </label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" width = "4">
+                <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
             </div>
             <br>
-            <form>
-                <div class="mb-3">
-                    <label  class="form-label">Email address </label>
-                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" width = "4">
-                    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
-                </div>
-                <br>
-                <div class="mb-3">
-                    <label  class="form-label">Review</label>
-                    <input type="text" class="form-control" id="exampleInputPassword1">
-                </div>
-                <button type="submit" class="btn btn-primary">Submit</button>
-            </form>
-        </div>
-    </body>
-   </html>
+            <div class="mb-3">
+                <label  class="form-label">Review</label>
+                <input type="text" class="form-control" id="exampleInputPassword1">
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+</body>
+<footer class = "footer">
+    <br>
+    <p>
+        <a class="btn btn-outline-secondary" href="Contacts.html" role="button">Contacts</a>
+    </p>
+</footer>
+</html>
