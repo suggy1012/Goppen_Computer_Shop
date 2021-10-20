@@ -2,7 +2,7 @@
 .header
 { 
     width: 100%;
-    height: 80px;
+    height: 90px;
     background-image: url(images/Back/gradient_head.jpg)
 }
 body
@@ -27,5 +27,15 @@ body
 }
 .text 
 { 
-    text-align:  center; 
+    text-align: center; 
+}
+.container
+{
+    width: 100%;
+    text-align: center; 
+}
+.Specifications
+{
+    width: 70%;
+    margin-right: 15%S;
 }
