@@ -1,5 +1,5 @@
 UPDATE Users
-SET Date_of_registration = substr(Date_of_registration, 7, 4) || substr(Date_of_registration, 4, 2) || substr(Date_of_registration, 1, 2);
+SET Date_of_registration = substr(Date_of_registration, 7, 4) || '-' || substr(Date_of_registration, 4, 2) || '-' || substr(Date_of_registration, 1, 2);
 
 SELECT Login FROM Users
 WHERE Date_of_registration = (SELECT MAX(Date_of_registration) FROM Users);
