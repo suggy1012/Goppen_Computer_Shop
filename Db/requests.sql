@@ -7,7 +7,7 @@ WHERE Date_of_registration = (SELECT MAX(Date_of_registration) FROM Users);
 
 SELECT DISTINCT(substr(Date_of_birthday, 1, 4)) FROM USERS;
 
-SELECT Id , count(*) AS total_items  FROM Products;
+select count(*) AS total_items  FROM Products;
 
 SELECT AVG(date('now') - Date_of_birthday) FROM Users
 WHERE date('now', '-2 months') >= Date_of_registration;
